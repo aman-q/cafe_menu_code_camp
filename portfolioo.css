@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+  
+  .self{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  }
+  .two h1 {
+    text-transform: capitalize;
+  }
+  .two h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    content: "";
+    background-color: #c50000;
+  }
+  
+  .two h1 span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+  }
+  .alt-two h1 {
+    text-align:center;
+  }
+  .alt-two h1:before {
+    left:50%; margin-left:-30px;
+  }
+  hr {
+    width: 50%;
+    margin-left: 00px;
+    margin-right: auto;
+    }
+  nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color: white;
+  }
+  
+  .detail{
+    margin-top: 15%;
+    margin-left: 8%;
+  }
+  .detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+  
+  }
+  
+  h1{
+   font-family: Pacifico;
+  }
+  
+  .detail p{
+    color: #FAEAB1;
+    line-height: 20px;
+  }
+  
+  .detail a{
+    position: absolute;
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    top: 75%;
+    left: 6%;
+  }
+  
+  img{
+    width: 20%;
+    height: 40%;;
+    position:absolute;
+    bottom: 0;
+    top: 25%;
+    border-radius: 50%;
+    right: 95px;
+    
+    
+  }
+  
+  .cv{
+    color: #FAEAB1;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+  }
